@@ -33,7 +33,14 @@ No provider.
 
 ## Inputs
 
-No input.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:-----:|
+| environment | The environment | `string` | `""` | no |
+| namespace | The namespace to deploy into | `string` | `""` | no |
+| network\_name | The network name, ie kusama / mainnet | `string` | `""` | no |
+| owner | Owner of the infrastructure | `string` | `""` | no |
+| stage | The stage of the deployment | `string` | `""` | no |
+| zone | The DO zone to deploy in | `string` | `"nyc1"` | no |
 
 ## Outputs
 
