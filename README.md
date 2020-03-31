@@ -2,6 +2,8 @@
 
 [![open-issues](https://img.shields.io/github/issues-raw/insight-w3f/terraform-polkadot-do-k8s?style=for-the-badge)](https://github.com/insight-w3f/terraform-polkadot-do-k8s/issues)
 [![open-pr](https://img.shields.io/github/issues-pr-raw/insight-w3f/terraform-polkadot-do-k8s?style=for-the-badge)](https://github.com/insight-w3f/terraform-polkadot-do-k8s/pulls)
+[![build-status](https://circleci.com/gh/insight-w3f/terraform-polkadot-do-k8s.svg?style=svg)](https://circleci.com/gh/insight-w3f/terraform-polkadot-do-k8s)
+
 
 ## Features
 
