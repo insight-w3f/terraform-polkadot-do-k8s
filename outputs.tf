@@ -42,3 +42,8 @@ output "cluster_client_certificate" {
   description = "The base64 encoded public certificate used by clients to access the cluster"
   value       = digitalocean_kubernetes_cluster.this.kube_config.0.client_certificate
 }
+
+output "token" {
+  description = "The cluster access token"
+  value       = digitalocean_kubernetes_cluster.this.kube_config.0.token
+}

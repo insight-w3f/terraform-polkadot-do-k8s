@@ -29,6 +29,10 @@ module "this" {
 No issue is creating limit on this module.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+No requirements.
+
 ## Providers
 
 | Name | Version |
@@ -38,7 +42,7 @@ No issue is creating limit on this module.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:-----:|
+|------|-------------|------|---------|:--------:|
 | cluster\_autoscale | Do you want the cluster's worker pool to autoscale? | `bool` | `false` | no |
 | cluster\_autoscale\_max\_workers | Maximum number of workers in worker pool | `number` | `1` | no |
 | cluster\_autoscale\_min\_workers | Minimum number of workers in worker pool | `number` | `1` | no |
@@ -66,6 +70,7 @@ No issue is creating limit on this module.
 | kube\_config | The full contents of the Kubernetes cluster's kubeconfig file |
 | public\_ip | The public IPv4 address of the Kubernetes master node |
 | service\_subnet | The range of assignable IP addresses for services running in the Kubernetes cluster |
+| token | The cluster access token |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
